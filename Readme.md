@@ -53,3 +53,5 @@ Targeted Broadcasting:
 
 Once clients have joined a room, you can broadcast messages to all clients in that room without sending the message to every connected client.
 Example: io.to('room1').emit('message', 'Hello room1!');
+
+![Alt text](<Screenshot 2024-05-22 at 12.09.15 PM.png>) ![Alt text](<Screenshot 2024-05-22 at 12.09.06 PM.png>) ![Alt text](<Screenshot 2024-05-22 at 12.08.58 PM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.36.02 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.34.43 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.34.27 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.22.47 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.22.09 AM.png>)
