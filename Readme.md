@@ -1,9 +1,9 @@
-io-->refers to the  entire circuit(server)
-socket--->refers to a particular user
-every socket has an id , which we can access via "socket.id"
-emit-->we are triggering an event, we are sending the data
-on-->with on we are always keeping a listener , which is listening the event ,we are receiving the data
-socket.broadcast.emit-->When you use socket.broadcast.emit, the message is sent to all clients except the one that initiated the event. This is useful when you want to notify all other clients about something, but not the one who triggered the event.
+io-->refers to the  entire circuit(server)<br/>
+socket--->refers to a particular user<br/>
+every socket has an id , which we can access via "socket.id"<br/>
+emit-->we are triggering an event, we are sending the data<br/>
+on-->with on we are always keeping a listener , which is listening the event ,we are receiving the data<br/>
+socket.broadcast.emit-->When you use socket.broadcast.emit, the message is sent to all clients except the one that initiated the event. This is useful when you want to notify all other clients about something, but not the one who triggered the event.<br/>
 
 
 
