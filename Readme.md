@@ -35,24 +35,24 @@ Socket.on(btn,((n)=>{
 ------------------
 
 
-individually each user is inside a room , and each room has an id same to socket.id
+individually each user is inside a room , and each room has an id same to socket.id<br/>
 
-socket.to().emit();----->Purpose: Sends an event to all sockets in the specified room, except the sender.
-the to contains the room id to which we want to send the message
+socket.to().emit();----->Purpose: Sends an event to all sockets in the specified room, except the sender.<br/>
+the to contains the room id to which we want to send the message<br/>
 
 -----------------------------
-socket.join('room1')--->In Socket.IO, the .join method is used to allow a socket (client) to join a "room." A room is a logical grouping of sockets that enables you to broadcast messages to multiple clients that have joined the same room. This concept is useful in scenarios like chat applications, where you might want to send messages to all users in a particular chat room, or in multiplayer games where players are divided into different groups or sessions.
+socket.join('room1')--->In Socket.IO, the .join method is used to allow a socket (client) to join a "room." A room is a logical grouping of sockets that enables you to broadcast messages to multiple clients that have joined the same room. This concept is useful in scenarios like chat applications, where you might want to send messages to all users in a particular chat room, or in multiplayer games where players are divided into different groups or sessions.<br/>
 
 
-Grouping Clients:
+Grouping Clients:<br/>
 
-The .join method allows you to group multiple clients together under a common room name. This makes it easier to manage communication between related clients.
-Example: socket.join('room1');
+The .join method allows you to group multiple clients together under a common room name. This makes it easier to manage communication between related clients.<br/>
+Example: socket.join('room1');<br/>
 
-Targeted Broadcasting:
+Targeted Broadcasting:<br/>
 
-Once clients have joined a room, you can broadcast messages to all clients in that room without sending the message to every connected client.
-Example: io.to('room1').emit('message', 'Hello room1!');
+Once clients have joined a room, you can broadcast messages to all clients in that room without sending the message to every connected client.<br/>
+Example: io.to('room1').emit('message', 'Hello room1!');<br/>
 
 ![Alt text](<Screenshot 2024-05-22 at 12.09.15 PM.png>) ![Alt text](<Screenshot 2024-05-22 at 12.09.06 PM.png>) ![Alt text](<Screenshot 2024-05-22 at 12.08.58 PM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.36.02 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.34.43 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.34.27 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.22.47 AM.png>) ![Alt text](<Screenshot 2024-05-22 at 11.22.09 AM.png>)
 ![Alt text](<Screenshot 2024-05-22 at 12.48.53 PM.png>)
